@@ -1,36 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
-.header-title {
+
+h1 {
     font-family: 'Homemade Apple', cursive;
     font-size: 3em;
     background-color: lightcoral;
-    padding: 50px; 
+    padding: 80px; 
+    text-align: center;
+    border-radius: 10px;
+    border: dotted;
+    border-color: black;
+    border-width: 5px;
+ 
 }
 
-.container {
-    background-color: lightgray;
-}
 
 #quote-body {
-    border-style: solid;
+    border-style: dotted;
     border-color: black;
-    border-width: 1px;
-    border-radius: 10px background-color: white;
-    font-family: 'Homemade Apple', cursive;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: monospace;
     font-size: 2.5em;
-    padding: 50px;
+    padding: 40px;
+    color: black;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
 }
 
 #quote-author {
+    font-size: 1.75em;
+    text-align: center;
     color: lightcoral;
-    font-size: 2em;
-    background-color: black;
-    border-radius: 10px;
+    font-family: 'Homemade Apple', cursive;
 }
 
-.btn {
-    background-color: lightcoral;
+
+
+
+body {
+    background-color: lightgrey;
 }
 
-.btn:hover {
-    color: lightgray;
+.left {
+    display: block;
+    position: relative; 
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+
 }
